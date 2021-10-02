@@ -54,15 +54,15 @@ export const Timer = ({ focusSubject, onTimerEnd, clearSubject }) => {
           onEnd={onEnd}
         />
       </View>
-      <View style={{ paddingTop: spacing.xxl }}>
+      <View style={{paddingTop: spacing.xxl}}>
         <Text style={styles.title}>Focusing on:</Text>
         <Text style={styles.task}>{focusSubject}</Text>
       </View>
-      <View style={{ paddingTop: spacing.sm }}>
+      <View style={{paddingTop: spacing.sm}}>
         <ProgressBar
           progress={progress}
           color="#5e84e2"
-          style={{ height: 10 }}
+          style={{height: 10}}
         />
       </View>
       <View style={styles.buttonWrapper}>
